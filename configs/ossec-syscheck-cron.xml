@@ -1,0 +1,2 @@
+<!-- Added to /var/ossec/etc/ossec.conf on wazuh-agent, inside <syscheck>, then: sudo systemctl restart wazuh-agent -->
+<directories realtime="yes">/etc/cron.d,/etc/cron.daily,/etc/cron.hourly,/var/spool/cron/crontabs</directories>
